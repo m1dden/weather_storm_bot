@@ -8,6 +8,7 @@ def get_main_menu_keyboard():
         InlineKeyboardButton(text="🌌 Магнитные бури", callback_data="geomagnetic")
     )
     builder.row(
+        InlineKeyboardButton(text="🔄 Обновить", callback_data="refresh"),
         InlineKeyboardButton(text="❓ Помощь", callback_data="help")
     )
     return builder.as_markup()
