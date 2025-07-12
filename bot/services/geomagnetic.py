@@ -1,6 +1,6 @@
 import httpx
 from datetime import datetime
-from typing import Tuple  # Добавляем новый импорт
+from typing import Tuple
 
 NOAA_API_URL = "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json"
 
